@@ -21,6 +21,7 @@ import datetime
 from collections import OrderedDict
 from datetime import timedelta
 
+target_directory="C:/Users/luke/Git Projects/Bball_ref_scrape/raw_data/"
 categories=["per_game", "totals", "per_poss", "advanced", "per_minute"]
 not_avg=["advanced", "per_minute"]
 years=[y for y in range(1956, 2021)]
@@ -28,7 +29,7 @@ current_year=2020
 
 def make_csv(df, string):
     outname = string+'.csv'
-    df.to_csv(outname)
+    df.to_csv(target_directory+outname)
 
 def normalize_names(headers, stats):
     names=-1
@@ -225,11 +226,11 @@ for year in years:
             continue
         file=str(year)+"_"+cat+".csv"
         try:
-            df=pd.read_csv(file)
+            df=pd.read_csv(target_directory+file)
             cols=df.columns
             df=df.assign(Yr=year)
             year_stats[year][cat]=df
-            #year_stats[year][cat]=pd.read_csv(file)
+            #year_stats[year][cat]=pd.read_csv(target_directory+file)
         except FileNotFoundError:
             year_stats[year][cat]=scrape_players_stats(year, cat)
         if year==current_year:
@@ -243,7 +244,7 @@ for cat in categories:
         continue
     file=cat+"_average"+".csv"
     try:
-        league_avgs[cat]=pd.read_csv(file)
+        league_avgs[cat]=pd.read_csv(target_directory+file)
     except FileNotFoundError:
         league_avgs[cat]=scrape_league_averages(cat)
         #print("File not accessible")
@@ -256,7 +257,7 @@ for year in years:
         continue
     file=str(year)+"_draft"+".csv"
     try:
-        drafts[year]=pd.read_csv(file)
+        drafts[year]=pd.read_csv(target_directory+file)
     except FileNotFoundError:
         drafts[year]=scrape_draft(year)
         #print("File not accessible")
@@ -323,7 +324,7 @@ for year in years:
         continue
     file="standings_"+str(year)+".csv"
     try:
-        standings[year]=pd.read_csv(file)
+        standings[year]=pd.read_csv(target_directory+file)
     except FileNotFoundError:
         standings[year]=scrape_standings(year)
 print("Standings Loaded")

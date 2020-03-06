@@ -12,17 +12,17 @@ b'Date',b'href',b'Visitor/Neutral',b'PTS',b'Home/Neutral',b'PTS',b'\xc2\xa0',b'\
 "Sat, Oct 31, 1959",/boxscores/195910310PHW.html,Detroit Pistons,112,Philadelphia Warriors,120,Box Score,,,
 "Sat, Oct 31, 1959",/boxscores/195910310STL.html,Cincinnati Royals,102,St. Louis Hawks,109,Box Score,,,
 "Sat, Oct 31, 1959",/boxscores/195910310SYR.html,Minneapolis Lakers,108,Syracuse Nationals,117,Box Score,,,
-"Sun, Nov 1, 1959",/boxscores/195911010CIN.html,Boston Celtics,124,Cincinnati Royals,109,Box Score,,,
 "Sun, Nov 1, 1959",/boxscores/195911010MNL.html,St. Louis Hawks,138,Minneapolis Lakers,101,Box Score,,,
-"Tue, Nov 3, 1959",/boxscores/195911030MNL.html,New York Knicks,99,Minneapolis Lakers,93,Box Score,,,"at St. Louis, MO"
+"Sun, Nov 1, 1959",/boxscores/195911010CIN.html,Boston Celtics,124,Cincinnati Royals,109,Box Score,,,
 "Tue, Nov 3, 1959",/boxscores/195911030STL.html,Boston Celtics,103,St. Louis Hawks,98,Box Score,,,
+"Tue, Nov 3, 1959",/boxscores/195911030MNL.html,New York Knicks,99,Minneapolis Lakers,93,Box Score,,,"at St. Louis, MO"
 "Wed, Nov 4, 1959",/boxscores/195911040DET.html,New York Knicks,107,Detroit Pistons,101,Box Score,,,
 "Wed, Nov 4, 1959",/boxscores/195911040PHW.html,Syracuse Nationals,113,Philadelphia Warriors,124,Box Score,,,
 "Fri, Nov 6, 1959",/boxscores/195911060MNL.html,Detroit Pistons,118,Minneapolis Lakers,113,Box Score,2OT,,
-"Sat, Nov 7, 1959",/boxscores/195911070STL.html,New York Knicks,113,St. Louis Hawks,117,Box Score,,,
-"Sat, Nov 7, 1959",/boxscores/195911070DET.html,Minneapolis Lakers,113,Detroit Pistons,111,Box Score,OT,,
-"Sat, Nov 7, 1959",/boxscores/195911070CIN.html,Syracuse Nationals,101,Cincinnati Royals,103,Box Score,,,"at Rochester, NY"
 "Sat, Nov 7, 1959",/boxscores/195911070BOS.html,Philadelphia Warriors,106,Boston Celtics,115,Box Score,,,
+"Sat, Nov 7, 1959",/boxscores/195911070CIN.html,Syracuse Nationals,101,Cincinnati Royals,103,Box Score,,,"at Rochester, NY"
+"Sat, Nov 7, 1959",/boxscores/195911070DET.html,Minneapolis Lakers,113,Detroit Pistons,111,Box Score,OT,,
+"Sat, Nov 7, 1959",/boxscores/195911070STL.html,New York Knicks,113,St. Louis Hawks,117,Box Score,,,
 "Sun, Nov 8, 1959",/boxscores/195911080MNL.html,Boston Celtics,115,Minneapolis Lakers,136,Box Score,,,
 "Sun, Nov 8, 1959",/boxscores/195911080PHW.html,Cincinnati Royals,106,Philadelphia Warriors,134,Box Score,,,
 "Sun, Nov 8, 1959",/boxscores/195911080SYR.html,Detroit Pistons,107,Syracuse Nationals,118,Box Score,,,
@@ -34,10 +34,10 @@ b'Date',b'href',b'Visitor/Neutral',b'PTS',b'Home/Neutral',b'PTS',b'\xc2\xa0',b'\
 "Thu, Nov 12, 1959",/boxscores/195911120CIN.html,Philadelphia Warriors,124,Cincinnati Royals,116,Box Score,,,
 "Thu, Nov 12, 1959",/boxscores/195911120DET.html,Minneapolis Lakers,93,Detroit Pistons,107,Box Score,,,"at New York, NY"
 "Thu, Nov 12, 1959",/boxscores/195911120NYK.html,Syracuse Nationals,113,New York Knicks,104,Box Score,,,
-"Sat, Nov 14, 1959",/boxscores/195911140SYR.html,New York Knicks,108,Syracuse Nationals,116,Box Score,,,
-"Sat, Nov 14, 1959",/boxscores/195911140PHW.html,Minneapolis Lakers,98,Philadelphia Warriors,104,Box Score,,,
-"Sat, Nov 14, 1959",/boxscores/195911140DET.html,Cincinnati Royals,103,Detroit Pistons,111,Box Score,,,
 "Sat, Nov 14, 1959",/boxscores/195911140BOS.html,St. Louis Hawks,111,Boston Celtics,113,Box Score,,,
+"Sat, Nov 14, 1959",/boxscores/195911140DET.html,Cincinnati Royals,103,Detroit Pistons,111,Box Score,,,
+"Sat, Nov 14, 1959",/boxscores/195911140PHW.html,Minneapolis Lakers,98,Philadelphia Warriors,104,Box Score,,,
+"Sat, Nov 14, 1959",/boxscores/195911140SYR.html,New York Knicks,108,Syracuse Nationals,116,Box Score,,,
 "Sun, Nov 15, 1959",/boxscores/195911150CIN.html,Boston Celtics,134,Cincinnati Royals,128,Box Score,,,
 "Sun, Nov 15, 1959",/boxscores/195911150MNL.html,Philadelphia Warriors,100,Minneapolis Lakers,106,Box Score,,,"at Saint Paul, MN"
 "Sun, Nov 15, 1959",/boxscores/195911150NYK.html,Detroit Pistons,103,New York Knicks,94,Box Score,,,
@@ -48,9 +48,9 @@ b'Date',b'href',b'Visitor/Neutral',b'PTS',b'Home/Neutral',b'PTS',b'\xc2\xa0',b'\
 "Wed, Nov 18, 1959",/boxscores/195911180MNL.html,New York Knicks,106,Minneapolis Lakers,105,Box Score,,,
 "Wed, Nov 18, 1959",/boxscores/195911180SYR.html,Boston Celtics,103,Syracuse Nationals,138,Box Score,,,
 "Thu, Nov 19, 1959",/boxscores/195911190CIN.html,New York Knicks,130,Cincinnati Royals,109,Box Score,,,
-"Fri, Nov 20, 1959",/boxscores/195911200PHW.html,St. Louis Hawks,118,Philadelphia Warriors,117,Box Score,,,
-"Fri, Nov 20, 1959",/boxscores/195911200MNL.html,Detroit Pistons,85,Minneapolis Lakers,105,Box Score,,,
 "Fri, Nov 20, 1959",/boxscores/195911200BOS.html,Syracuse Nationals,101,Boston Celtics,114,Box Score,,,
+"Fri, Nov 20, 1959",/boxscores/195911200MNL.html,Detroit Pistons,85,Minneapolis Lakers,105,Box Score,,,
+"Fri, Nov 20, 1959",/boxscores/195911200PHW.html,St. Louis Hawks,118,Philadelphia Warriors,117,Box Score,,,
 "Sat, Nov 21, 1959",/boxscores/195911210CIN.html,Minneapolis Lakers,99,Cincinnati Royals,93,Box Score,OT,,
 "Sat, Nov 21, 1959",/boxscores/195911210NYK.html,Boston Celtics,128,New York Knicks,127,Box Score,,,
 "Sat, Nov 21, 1959",/boxscores/195911210STL.html,Detroit Pistons,109,St. Louis Hawks,107,Box Score,,,
@@ -63,40 +63,40 @@ b'Date',b'href',b'Visitor/Neutral',b'PTS',b'Home/Neutral',b'PTS',b'\xc2\xa0',b'\
 "Wed, Nov 25, 1959",/boxscores/195911250BOS.html,Philadelphia Warriors,123,Boston Celtics,113,Box Score,,,
 "Wed, Nov 25, 1959",/boxscores/195911250DET.html,St. Louis Hawks,104,Detroit Pistons,97,Box Score,,,
 "Wed, Nov 25, 1959",/boxscores/195911250MNL.html,Syracuse Nationals,100,Minneapolis Lakers,93,Box Score,,,
-"Thu, Nov 26, 1959",/boxscores/195911260STL.html,Syracuse Nationals,95,St. Louis Hawks,112,Box Score,,,
-"Thu, Nov 26, 1959",/boxscores/195911260PHW.html,Boston Celtics,130,Philadelphia Warriors,143,Box Score,,,
 "Thu, Nov 26, 1959",/boxscores/195911260CIN.html,Minneapolis Lakers,95,Cincinnati Royals,114,Box Score,,,
+"Thu, Nov 26, 1959",/boxscores/195911260PHW.html,Boston Celtics,130,Philadelphia Warriors,143,Box Score,,,
+"Thu, Nov 26, 1959",/boxscores/195911260STL.html,Syracuse Nationals,95,St. Louis Hawks,112,Box Score,,,
 "Sat, Nov 28, 1959",/boxscores/195911280BOS.html,Detroit Pistons,110,Boston Celtics,136,Box Score,,,
 "Sat, Nov 28, 1959",/boxscores/195911280CIN.html,Syracuse Nationals,111,Cincinnati Royals,105,Box Score,,,
 "Sat, Nov 28, 1959",/boxscores/195911280NYK.html,Philadelphia Warriors,109,New York Knicks,108,Box Score,,,
 "Sat, Nov 28, 1959",/boxscores/195911280STL.html,Minneapolis Lakers,91,St. Louis Hawks,102,Box Score,,,
 "Sun, Nov 29, 1959",/boxscores/195911290MNL.html,Boston Celtics,109,Minneapolis Lakers,93,Box Score,,,"at Saint Paul, MN"
 "Sun, Nov 29, 1959",/boxscores/195911290PHW.html,New York Knicks,127,Philadelphia Warriors,126,Box Score,,,
-"Tue, Dec 1, 1959",/boxscores/195912010NYK.html,Minneapolis Lakers,103,New York Knicks,100,Box Score,,,
 "Tue, Dec 1, 1959",/boxscores/195912010STL.html,Syracuse Nationals,101,St. Louis Hawks,106,Box Score,,,"at New York, NY"
-"Wed, Dec 2, 1959",/boxscores/195912020CIN.html,New York Knicks,118,Cincinnati Royals,135,Box Score,,,"at Syracuse, NY"
+"Tue, Dec 1, 1959",/boxscores/195912010NYK.html,Minneapolis Lakers,103,New York Knicks,100,Box Score,,,
 "Wed, Dec 2, 1959",/boxscores/195912020SYR.html,St. Louis Hawks,121,Syracuse Nationals,130,Box Score,,,
+"Wed, Dec 2, 1959",/boxscores/195912020CIN.html,New York Knicks,118,Cincinnati Royals,135,Box Score,,,"at Syracuse, NY"
 "Thu, Dec 3, 1959",/boxscores/195912030BOS.html,Cincinnati Royals,111,Boston Celtics,114,Box Score,,,"at Philadelphia, PA"
 "Thu, Dec 3, 1959",/boxscores/195912030PHW.html,Minneapolis Lakers,109,Philadelphia Warriors,123,Box Score,,,
-"Fri, Dec 4, 1959",/boxscores/195912040PHW.html,St. Louis Hawks,112,Philadelphia Warriors,124,Box Score,,,"at Detroit, MI"
-"Fri, Dec 4, 1959",/boxscores/195912040DET.html,Minneapolis Lakers,101,Detroit Pistons,120,Box Score,,,
 "Fri, Dec 4, 1959",/boxscores/195912040BOS.html,New York Knicks,107,Boston Celtics,122,Box Score,,,
+"Fri, Dec 4, 1959",/boxscores/195912040DET.html,Minneapolis Lakers,101,Detroit Pistons,120,Box Score,,,
+"Fri, Dec 4, 1959",/boxscores/195912040PHW.html,St. Louis Hawks,112,Philadelphia Warriors,124,Box Score,,,"at Detroit, MI"
 "Sat, Dec 5, 1959",/boxscores/195912050NYK.html,Detroit Pistons,108,New York Knicks,124,Box Score,,,
 "Sat, Dec 5, 1959",/boxscores/195912050STL.html,Philadelphia Warriors,112,St. Louis Hawks,113,Box Score,,,
 "Sat, Dec 5, 1959",/boxscores/195912050SYR.html,Minneapolis Lakers,95,Syracuse Nationals,108,Box Score,,,
 "Sun, Dec 6, 1959",/boxscores/195912060CIN.html,St. Louis Hawks,118,Cincinnati Royals,104,Box Score,,,
 "Sun, Dec 6, 1959",/boxscores/195912060MNL.html,Boston Celtics,121,Minneapolis Lakers,104,Box Score,,,
 "Sun, Dec 6, 1959",/boxscores/195912060PHW.html,Detroit Pistons,116,Philadelphia Warriors,118,Box Score,,,
-"Tue, Dec 8, 1959",/boxscores/195912080NYK.html,Boston Celtics,121,New York Knicks,105,Box Score,,,
 "Tue, Dec 8, 1959",/boxscores/195912080MNL.html,Syracuse Nationals,93,Minneapolis Lakers,89,Box Score,,,"at Seattle, WA"
+"Tue, Dec 8, 1959",/boxscores/195912080NYK.html,Boston Celtics,121,New York Knicks,105,Box Score,,,
 "Tue, Dec 8, 1959",/boxscores/195912080CIN.html,St. Louis Hawks,101,Cincinnati Royals,105,Box Score,,,"at New York, NY"
 "Wed, Dec 9, 1959",/boxscores/195912090BOS.html,Philadelphia Warriors,116,Boston Celtics,137,Box Score,,,
 "Wed, Dec 9, 1959",/boxscores/195912090CIN.html,Detroit Pistons,119,Cincinnati Royals,129,Box Score,,,"at Boston, MA"
 "Wed, Dec 9, 1959",/boxscores/195912090MNL.html,Syracuse Nationals,86,Minneapolis Lakers,96,Box Score,,,"at San Francisco, CA"
 "Thu, Dec 10, 1959",/boxscores/195912100DET.html,St. Louis Hawks,129,Detroit Pistons,111,Box Score,,,"at Philadelphia, PA"
 "Thu, Dec 10, 1959",/boxscores/195912100PHW.html,Cincinnati Royals,112,Philadelphia Warriors,131,Box Score,,,
-"Fri, Dec 11, 1959",/boxscores/195912110NYK.html,Syracuse Nationals,121,New York Knicks,152,Box Score,,,
 "Fri, Dec 11, 1959",/boxscores/195912110BOS.html,St. Louis Hawks,99,Boston Celtics,122,Box Score,,,
+"Fri, Dec 11, 1959",/boxscores/195912110NYK.html,Syracuse Nationals,121,New York Knicks,152,Box Score,,,
 "Sat, Dec 12, 1959",/boxscores/195912120MNL.html,Cincinnati Royals,107,Minneapolis Lakers,97,Box Score,,,
 "Sat, Dec 12, 1959",/boxscores/195912120PHW.html,Boston Celtics,126,Philadelphia Warriors,117,Box Score,,,
 "Sun, Dec 13, 1959",/boxscores/195912130DET.html,New York Knicks,129,Detroit Pistons,147,Box Score,,,
@@ -108,34 +108,34 @@ b'Date',b'href',b'Visitor/Neutral',b'PTS',b'Home/Neutral',b'PTS',b'\xc2\xa0',b'\
 "Wed, Dec 16, 1959",/boxscores/195912160DET.html,St. Louis Hawks,107,Detroit Pistons,106,Box Score,,,
 "Wed, Dec 16, 1959",/boxscores/195912160SYR.html,New York Knicks,113,Syracuse Nationals,116,Box Score,,,
 "Thu, Dec 17, 1959",/boxscores/195912170BOS.html,New York Knicks,126,Boston Celtics,137,Box Score,,,"at Providence, RI"
-"Sat, Dec 19, 1959",/boxscores/195912190STL.html,Philadelphia Warriors,89,St. Louis Hawks,102,Box Score,,,
-"Sat, Dec 19, 1959",/boxscores/195912190DET.html,Syracuse Nationals,112,Detroit Pistons,120,Box Score,,,
-"Sat, Dec 19, 1959",/boxscores/195912190CIN.html,Minneapolis Lakers,131,Cincinnati Royals,113,Box Score,,,
 "Sat, Dec 19, 1959",/boxscores/195912190BOS.html,New York Knicks,116,Boston Celtics,119,Box Score,,,
+"Sat, Dec 19, 1959",/boxscores/195912190CIN.html,Minneapolis Lakers,131,Cincinnati Royals,113,Box Score,,,
+"Sat, Dec 19, 1959",/boxscores/195912190DET.html,Syracuse Nationals,112,Detroit Pistons,120,Box Score,,,
+"Sat, Dec 19, 1959",/boxscores/195912190STL.html,Philadelphia Warriors,89,St. Louis Hawks,102,Box Score,,,
 "Sun, Dec 20, 1959",/boxscores/195912200NYK.html,Cincinnati Royals,118,New York Knicks,132,Box Score,,,
 "Sun, Dec 20, 1959",/boxscores/195912200STL.html,Detroit Pistons,86,St. Louis Hawks,102,Box Score,,,
 "Sun, Dec 20, 1959",/boxscores/195912200SYR.html,Boston Celtics,132,Syracuse Nationals,127,Box Score,,,
 "Tue, Dec 22, 1959",/boxscores/195912220CIN.html,New York Knicks,127,Cincinnati Royals,119,Box Score,,,"at Detroit, MI"
 "Tue, Dec 22, 1959",/boxscores/195912220DET.html,Boston Celtics,136,Detroit Pistons,104,Box Score,,,
+"Fri, Dec 25, 1959",/boxscores/195912250NYK.html,Boston Celtics,123,New York Knicks,119,Box Score,,,
 "Fri, Dec 25, 1959",/boxscores/195912250STL.html,Minneapolis Lakers,96,St. Louis Hawks,112,Box Score,,,
 "Fri, Dec 25, 1959",/boxscores/195912250PHW.html,Syracuse Nationals,121,Philadelphia Warriors,129,Box Score,,,"at Hershey, PA"
-"Fri, Dec 25, 1959",/boxscores/195912250NYK.html,Boston Celtics,123,New York Knicks,119,Box Score,,,
 "Fri, Dec 25, 1959",/boxscores/195912250CIN.html,Detroit Pistons,103,Cincinnati Royals,121,Box Score,,,
 "Sat, Dec 26, 1959",/boxscores/195912260DET.html,Minneapolis Lakers,108,Detroit Pistons,105,Box Score,,,
 "Sat, Dec 26, 1959",/boxscores/195912260PHW.html,New York Knicks,122,Philadelphia Warriors,116,Box Score,,,
 "Sat, Dec 26, 1959",/boxscores/195912260SYR.html,St. Louis Hawks,104,Syracuse Nationals,117,Box Score,,,
 "Sun, Dec 27, 1959",/boxscores/195912270CIN.html,Boston Celtics,122,Cincinnati Royals,111,Box Score,,,
 "Sun, Dec 27, 1959",/boxscores/195912270MNL.html,Detroit Pistons,109,Minneapolis Lakers,119,Box Score,,,
-"Mon, Dec 28, 1959",/boxscores/195912280STL.html,Syracuse Nationals,106,St. Louis Hawks,120,Box Score,,,
-"Mon, Dec 28, 1959",/boxscores/195912280CIN.html,Philadelphia Warriors,109,Cincinnati Royals,104,Box Score,,,"at St. Louis, MO"
 "Mon, Dec 28, 1959",/boxscores/195912280BOS.html,Minneapolis Lakers,104,Boston Celtics,107,Box Score,,,
+"Mon, Dec 28, 1959",/boxscores/195912280CIN.html,Philadelphia Warriors,109,Cincinnati Royals,104,Box Score,,,"at St. Louis, MO"
+"Mon, Dec 28, 1959",/boxscores/195912280STL.html,Syracuse Nationals,106,St. Louis Hawks,120,Box Score,,,
 "Wed, Dec 30, 1959",/boxscores/195912300CIN.html,Syracuse Nationals,131,Cincinnati Royals,127,Box Score,,,
 "Wed, Dec 30, 1959",/boxscores/195912300DET.html,New York Knicks,124,Detroit Pistons,109,Box Score,,,"at Philadelphia, PA"
 "Wed, Dec 30, 1959",/boxscores/195912300PHW.html,Minneapolis Lakers,107,Philadelphia Warriors,122,Box Score,,,
 "Wed, Dec 30, 1959",/boxscores/195912300STL.html,Boston Celtics,96,St. Louis Hawks,82,Box Score,,,
 "Thu, Dec 31, 1959",/boxscores/195912310NYK.html,Minneapolis Lakers,102,New York Knicks,127,Box Score,,,
-"Fri, Jan 1, 1960",/boxscores/196001010BOS.html,Cincinnati Royals,128,Boston Celtics,115,Box Score,,,"at Detroit, MI"
 "Fri, Jan 1, 1960",/boxscores/196001010DET.html,St. Louis Hawks,107,Detroit Pistons,119,Box Score,,,
+"Fri, Jan 1, 1960",/boxscores/196001010BOS.html,Cincinnati Royals,128,Boston Celtics,115,Box Score,,,"at Detroit, MI"
 "Fri, Jan 1, 1960",/boxscores/196001010MNL.html,Syracuse Nationals,109,Minneapolis Lakers,98,Box Score,,,
 "Sat, Jan 2, 1960",/boxscores/196001020CIN.html,New York Knicks,126,Cincinnati Royals,118,Box Score,,,
 "Sat, Jan 2, 1960",/boxscores/196001020PHW.html,Boston Celtics,117,Philadelphia Warriors,118,Box Score,,,
@@ -144,25 +144,25 @@ b'Date',b'href',b'Visitor/Neutral',b'PTS',b'Home/Neutral',b'PTS',b'\xc2\xa0',b'\
 "Sun, Jan 3, 1960",/boxscores/196001030STL.html,New York Knicks,108,St. Louis Hawks,110,Box Score,,,
 "Sun, Jan 3, 1960",/boxscores/196001030SYR.html,Boston Celtics,113,Syracuse Nationals,114,Box Score,,,
 "Mon, Jan 4, 1960",/boxscores/196001040BOS.html,Syracuse Nationals,120,Boston Celtics,127,Box Score,,,
-"Tue, Jan 5, 1960",/boxscores/196001050BOS.html,Syracuse Nationals,145,Boston Celtics,143,Box Score,OT,,"at Providence, RI"
 "Tue, Jan 5, 1960",/boxscores/196001050MNL.html,Philadelphia Warriors,126,Minneapolis Lakers,111,Box Score,,,"at New York, NY"
 "Tue, Jan 5, 1960",/boxscores/196001050NYK.html,Detroit Pistons,110,New York Knicks,121,Box Score,,,
+"Tue, Jan 5, 1960",/boxscores/196001050BOS.html,Syracuse Nationals,145,Boston Celtics,143,Box Score,OT,,"at Providence, RI"
 "Wed, Jan 6, 1960",/boxscores/196001060CIN.html,New York Knicks,113,Cincinnati Royals,129,Box Score,,,"at Philadelphia, PA"
 "Wed, Jan 6, 1960",/boxscores/196001060PHW.html,St. Louis Hawks,101,Philadelphia Warriors,121,Box Score,,,
 "Thu, Jan 7, 1960",/boxscores/196001070DET.html,Philadelphia Warriors,120,Detroit Pistons,105,Box Score,,,"at Syracuse, NY"
 "Thu, Jan 7, 1960",/boxscores/196001070SYR.html,Cincinnati Royals,114,Syracuse Nationals,132,Box Score,,,
-"Fri, Jan 8, 1960",/boxscores/196001080DET.html,Syracuse Nationals,118,Detroit Pistons,107,Box Score,,,"at Rochester, NY"
 "Fri, Jan 8, 1960",/boxscores/196001080CIN.html,St. Louis Hawks,102,Cincinnati Royals,112,Box Score,,,
+"Fri, Jan 8, 1960",/boxscores/196001080DET.html,Syracuse Nationals,118,Detroit Pistons,107,Box Score,,,"at Rochester, NY"
 "Sat, Jan 9, 1960",/boxscores/196001090DET.html,Boston Celtics,126,Detroit Pistons,103,Box Score,,,
-"Sat, Jan 9, 1960",/boxscores/196001090MNL.html,Cincinnati Royals,91,Minneapolis Lakers,121,Box Score,,,
 "Sat, Jan 9, 1960",/boxscores/196001090PHW.html,Syracuse Nationals,112,Philadelphia Warriors,119,Box Score,,,
+"Sat, Jan 9, 1960",/boxscores/196001090MNL.html,Cincinnati Royals,91,Minneapolis Lakers,121,Box Score,,,
 "Sun, Jan 10, 1960",/boxscores/196001100CIN.html,Minneapolis Lakers,112,Cincinnati Royals,106,Box Score,,,
 "Sun, Jan 10, 1960",/boxscores/196001100NYK.html,Philadelphia Warriors,116,New York Knicks,103,Box Score,,,
 "Sun, Jan 10, 1960",/boxscores/196001100STL.html,Boston Celtics,111,St. Louis Hawks,121,Box Score,,,
 "Sun, Jan 10, 1960",/boxscores/196001100SYR.html,Detroit Pistons,103,Syracuse Nationals,108,Box Score,,,
-"Tue, Jan 12, 1960",/boxscores/196001120PHW.html,St. Louis Hawks,108,Philadelphia Warriors,126,Box Score,,,
-"Tue, Jan 12, 1960",/boxscores/196001120CIN.html,New York Knicks,141,Cincinnati Royals,123,Box Score,,,
 "Tue, Jan 12, 1960",/boxscores/196001120BOS.html,Syracuse Nationals,127,Boston Celtics,120,Box Score,,,"at Philadelphia, PA"
+"Tue, Jan 12, 1960",/boxscores/196001120CIN.html,New York Knicks,141,Cincinnati Royals,123,Box Score,,,
+"Tue, Jan 12, 1960",/boxscores/196001120PHW.html,St. Louis Hawks,108,Philadelphia Warriors,126,Box Score,,,
 "Wed, Jan 13, 1960",/boxscores/196001130BOS.html,St. Louis Hawks,112,Boston Celtics,134,Box Score,,,
 "Wed, Jan 13, 1960",/boxscores/196001130DET.html,New York Knicks,113,Detroit Pistons,114,Box Score,,,"at Fort Wayne, IN"
 "Wed, Jan 13, 1960",/boxscores/196001130PHW.html,Syracuse Nationals,131,Philadelphia Warriors,132,Box Score,OT,,"at Boston, MA"
@@ -178,27 +178,27 @@ b'Date',b'href',b'Visitor/Neutral',b'PTS',b'Home/Neutral',b'PTS',b'\xc2\xa0',b'\
 "Sun, Jan 17, 1960",/boxscores/196001170STL.html,Minneapolis Lakers,119,St. Louis Hawks,135,Box Score,,,
 "Sun, Jan 17, 1960",/boxscores/196001170SYR.html,New York Knicks,117,Syracuse Nationals,129,Box Score,,,
 "Tue, Jan 19, 1960",/boxscores/196001190NYK.html,Philadelphia Warriors,114,New York Knicks,93,Box Score,,,"at Camden, NJ"
-"Wed, Jan 20, 1960",/boxscores/196001200SYR.html,Philadelphia Warriors,129,Syracuse Nationals,123,Box Score,,,
-"Wed, Jan 20, 1960",/boxscores/196001200CIN.html,St. Louis Hawks,119,Cincinnati Royals,108,Box Score,,,
 "Wed, Jan 20, 1960",/boxscores/196001200BOS.html,New York Knicks,126,Boston Celtics,144,Box Score,,,
+"Wed, Jan 20, 1960",/boxscores/196001200CIN.html,St. Louis Hawks,119,Cincinnati Royals,108,Box Score,,,
+"Wed, Jan 20, 1960",/boxscores/196001200SYR.html,Philadelphia Warriors,129,Syracuse Nationals,123,Box Score,,,
 "Sat, Jan 23, 1960",/boxscores/196001230BOS.html,Syracuse Nationals,121,Boston Celtics,130,Box Score,,,
 "Sat, Jan 23, 1960",/boxscores/196001230DET.html,Philadelphia Warriors,110,Detroit Pistons,130,Box Score,,,
 "Sat, Jan 23, 1960",/boxscores/196001230MNL.html,New York Knicks,115,Minneapolis Lakers,104,Box Score,,,
 "Sat, Jan 23, 1960",/boxscores/196001230STL.html,Cincinnati Royals,100,St. Louis Hawks,108,Box Score,,,
 "Sun, Jan 24, 1960",/boxscores/196001240SYR.html,Boston Celtics,131,Syracuse Nationals,110,Box Score,,,
-"Sun, Jan 24, 1960",/boxscores/196001240STL.html,New York Knicks,129,St. Louis Hawks,155,Box Score,,,
 "Sun, Jan 24, 1960",/boxscores/196001240CIN.html,Philadelphia Warriors,104,Cincinnati Royals,95,Box Score,,,
+"Sun, Jan 24, 1960",/boxscores/196001240STL.html,New York Knicks,129,St. Louis Hawks,155,Box Score,,,
 "Mon, Jan 25, 1960",/boxscores/196001250DET.html,Philadelphia Warriors,127,Detroit Pistons,117,Box Score,,,"at Bethlehem, PA"
 "Tue, Jan 26, 1960",/boxscores/196001260DET.html,Syracuse Nationals,114,Detroit Pistons,121,Box Score,,,"at New York, NY"
 "Tue, Jan 26, 1960",/boxscores/196001260NYK.html,St. Louis Hawks,119,New York Knicks,123,Box Score,,,
-"Wed, Jan 27, 1960",/boxscores/196001270NYK.html,Philadelphia Warriors,129,New York Knicks,117,Box Score,,,"at Boston, MA"
-"Wed, Jan 27, 1960",/boxscores/196001270DET.html,Syracuse Nationals,144,Detroit Pistons,108,Box Score,,,
-"Wed, Jan 27, 1960",/boxscores/196001270CIN.html,Minneapolis Lakers,116,Cincinnati Royals,112,Box Score,,,"at Detroit, MI"
 "Wed, Jan 27, 1960",/boxscores/196001270BOS.html,St. Louis Hawks,114,Boston Celtics,127,Box Score,,,
+"Wed, Jan 27, 1960",/boxscores/196001270CIN.html,Minneapolis Lakers,116,Cincinnati Royals,112,Box Score,,,"at Detroit, MI"
+"Wed, Jan 27, 1960",/boxscores/196001270DET.html,Syracuse Nationals,144,Detroit Pistons,108,Box Score,,,
+"Wed, Jan 27, 1960",/boxscores/196001270NYK.html,Philadelphia Warriors,129,New York Knicks,117,Box Score,,,"at Boston, MA"
+"Fri, Jan 29, 1960",/boxscores/196001290CIN.html,New York Knicks,128,Cincinnati Royals,113,Box Score,,,"at Philadelphia, PA"
 "Fri, Jan 29, 1960",/boxscores/196001290STL.html,Detroit Pistons,125,St. Louis Hawks,130,Box Score,OT,,
 "Fri, Jan 29, 1960",/boxscores/196001290PHW.html,Boston Celtics,116,Philadelphia Warriors,124,Box Score,,,
 "Fri, Jan 29, 1960",/boxscores/196001290MNL.html,Syracuse Nationals,119,Minneapolis Lakers,112,Box Score,,,
-"Fri, Jan 29, 1960",/boxscores/196001290CIN.html,New York Knicks,128,Cincinnati Royals,113,Box Score,,,"at Philadelphia, PA"
 "Sat, Jan 30, 1960",/boxscores/196001300BOS.html,Cincinnati Royals,107,Boston Celtics,129,Box Score,,,"at Providence, RI"
 "Sat, Jan 30, 1960",/boxscores/196001300DET.html,St. Louis Hawks,107,Detroit Pistons,117,Box Score,,,
 "Sat, Jan 30, 1960",/boxscores/196001300NYK.html,Philadelphia Warriors,108,New York Knicks,115,Box Score,,,
@@ -209,9 +209,9 @@ b'Date',b'href',b'Visitor/Neutral',b'PTS',b'Home/Neutral',b'PTS',b'\xc2\xa0',b'\
 "Tue, Feb 2, 1960",/boxscores/196002020BOS.html,St. Louis Hawks,114,Boston Celtics,113,Box Score,,,"at New York, NY"
 "Tue, Feb 2, 1960",/boxscores/196002020NYK.html,Syracuse Nationals,119,New York Knicks,102,Box Score,,,
 "Tue, Feb 2, 1960",/boxscores/196002020PHW.html,Cincinnati Royals,107,Philadelphia Warriors,109,Box Score,,,
-"Wed, Feb 3, 1960",/boxscores/196002030NYK.html,St. Louis Hawks,125,New York Knicks,115,Box Score,,,"at Boston, MA"
-"Wed, Feb 3, 1960",/boxscores/196002030DET.html,Cincinnati Royals,105,Detroit Pistons,117,Box Score,,,
 "Wed, Feb 3, 1960",/boxscores/196002030BOS.html,Minneapolis Lakers,108,Boston Celtics,128,Box Score,,,
+"Wed, Feb 3, 1960",/boxscores/196002030DET.html,Cincinnati Royals,105,Detroit Pistons,117,Box Score,,,
+"Wed, Feb 3, 1960",/boxscores/196002030NYK.html,St. Louis Hawks,125,New York Knicks,115,Box Score,,,"at Boston, MA"
 "Thu, Feb 4, 1960",/boxscores/196002040CIN.html,Detroit Pistons,121,Cincinnati Royals,102,Box Score,,,
 "Thu, Feb 4, 1960",/boxscores/196002040SYR.html,Philadelphia Warriors,110,Syracuse Nationals,137,Box Score,,,
 "Fri, Feb 5, 1960",/boxscores/196002050MNL.html,St. Louis Hawks,114,Minneapolis Lakers,96,Box Score,,,
@@ -219,13 +219,13 @@ b'Date',b'href',b'Visitor/Neutral',b'PTS',b'Home/Neutral',b'PTS',b'\xc2\xa0',b'\
 "Sat, Feb 6, 1960",/boxscores/196002060DET.html,Minneapolis Lakers,101,Detroit Pistons,116,Box Score,,,
 "Sat, Feb 6, 1960",/boxscores/196002060NYK.html,Boston Celtics,143,New York Knicks,117,Box Score,,,
 "Sat, Feb 6, 1960",/boxscores/196002060PHW.html,Syracuse Nationals,126,Philadelphia Warriors,129,Box Score,,,
-"Sun, Feb 7, 1960",/boxscores/196002070SYR.html,Cincinnati Royals,112,Syracuse Nationals,135,Box Score,,,
-"Sun, Feb 7, 1960",/boxscores/196002070STL.html,Philadelphia Warriors,108,St. Louis Hawks,130,Box Score,,,
-"Sun, Feb 7, 1960",/boxscores/196002070MNL.html,Detroit Pistons,102,Minneapolis Lakers,104,Box Score,,,
 "Sun, Feb 7, 1960",/boxscores/196002070BOS.html,New York Knicks,142,Boston Celtics,135,Box Score,,,
+"Sun, Feb 7, 1960",/boxscores/196002070MNL.html,Detroit Pistons,102,Minneapolis Lakers,104,Box Score,,,
+"Sun, Feb 7, 1960",/boxscores/196002070STL.html,Philadelphia Warriors,108,St. Louis Hawks,130,Box Score,,,
+"Sun, Feb 7, 1960",/boxscores/196002070SYR.html,Cincinnati Royals,112,Syracuse Nationals,135,Box Score,,,
+"Tue, Feb 9, 1960",/boxscores/196002090CIN.html,Syracuse Nationals,117,Cincinnati Royals,111,Box Score,,,"at Detroit, MI"
 "Tue, Feb 9, 1960",/boxscores/196002090STL.html,New York Knicks,104,St. Louis Hawks,114,Box Score,,,
 "Tue, Feb 9, 1960",/boxscores/196002090DET.html,Philadelphia Warriors,113,Detroit Pistons,122,Box Score,,,
-"Tue, Feb 9, 1960",/boxscores/196002090CIN.html,Syracuse Nationals,117,Cincinnati Royals,111,Box Score,,,"at Detroit, MI"
 "Tue, Feb 9, 1960",/boxscores/196002090BOS.html,Minneapolis Lakers,90,Boston Celtics,129,Box Score,,,"at St. Louis, MO"
 "Wed, Feb 10, 1960",/boxscores/196002100BOS.html,Detroit Pistons,121,Boston Celtics,153,Box Score,,,"at Providence, RI"
 "Wed, Feb 10, 1960",/boxscores/196002100CIN.html,St. Louis Hawks,120,Cincinnati Royals,110,Box Score,,,
@@ -242,34 +242,34 @@ b'Date',b'href',b'Visitor/Neutral',b'PTS',b'Home/Neutral',b'PTS',b'\xc2\xa0',b'\
 "Sun, Feb 14, 1960",/boxscores/196002140STL.html,Cincinnati Royals,105,St. Louis Hawks,107,Box Score,,,
 "Sun, Feb 14, 1960",/boxscores/196002140SYR.html,Minneapolis Lakers,119,Syracuse Nationals,121,Box Score,,,
 "Tue, Feb 16, 1960",/boxscores/196002160NYK.html,Syracuse Nationals,116,New York Knicks,125,Box Score,,,
-"Tue, Feb 16, 1960",/boxscores/196002160DET.html,St. Louis Hawks,111,Detroit Pistons,104,Box Score,,,
-"Tue, Feb 16, 1960",/boxscores/196002160CIN.html,Philadelphia Warriors,117,Cincinnati Royals,112,Box Score,,,
 "Tue, Feb 16, 1960",/boxscores/196002160BOS.html,Minneapolis Lakers,122,Boston Celtics,130,Box Score,,,"at New York, NY"
+"Tue, Feb 16, 1960",/boxscores/196002160CIN.html,Philadelphia Warriors,117,Cincinnati Royals,112,Box Score,,,
+"Tue, Feb 16, 1960",/boxscores/196002160DET.html,St. Louis Hawks,111,Detroit Pistons,104,Box Score,,,
 "Wed, Feb 17, 1960",/boxscores/196002170MNL.html,St. Louis Hawks,131,Minneapolis Lakers,127,Box Score,,,"at Philadelphia, PA"
 "Wed, Feb 17, 1960",/boxscores/196002170PHW.html,Syracuse Nationals,116,Philadelphia Warriors,123,Box Score,,,
-"Thu, Feb 18, 1960",/boxscores/196002180SYR.html,Philadelphia Warriors,122,Syracuse Nationals,136,Box Score,,,
 "Thu, Feb 18, 1960",/boxscores/196002180BOS.html,New York Knicks,104,Boston Celtics,109,Box Score,,,"at Syracuse, NY"
+"Thu, Feb 18, 1960",/boxscores/196002180SYR.html,Philadelphia Warriors,122,Syracuse Nationals,136,Box Score,,,
 "Fri, Feb 19, 1960",/boxscores/196002190DET.html,Boston Celtics,136,Detroit Pistons,116,Box Score,,,
 "Fri, Feb 19, 1960",/boxscores/196002190MNL.html,St. Louis Hawks,101,Minneapolis Lakers,111,Box Score,,,
+"Sat, Feb 20, 1960",/boxscores/196002200NYK.html,Syracuse Nationals,126,New York Knicks,121,Box Score,,,"at Philadelphia, PA"
 "Sat, Feb 20, 1960",/boxscores/196002200STL.html,Boston Celtics,105,St. Louis Hawks,121,Box Score,,,
 "Sat, Feb 20, 1960",/boxscores/196002200PHW.html,Minneapolis Lakers,106,Philadelphia Warriors,122,Box Score,,,
-"Sat, Feb 20, 1960",/boxscores/196002200NYK.html,Syracuse Nationals,126,New York Knicks,121,Box Score,,,"at Philadelphia, PA"
 "Sat, Feb 20, 1960",/boxscores/196002200CIN.html,Detroit Pistons,107,Cincinnati Royals,110,Box Score,,,
 "Sun, Feb 21, 1960",/boxscores/196002210CIN.html,Boston Celtics,115,Cincinnati Royals,108,Box Score,,,
 "Sun, Feb 21, 1960",/boxscores/196002210MNL.html,St. Louis Hawks,98,Minneapolis Lakers,112,Box Score,,,"at Los Angeles, CA"
 "Sun, Feb 21, 1960",/boxscores/196002210NYK.html,Philadelphia Warriors,129,New York Knicks,122,Box Score,,,
 "Sun, Feb 21, 1960",/boxscores/196002210SYR.html,Detroit Pistons,120,Syracuse Nationals,122,Box Score,,,
 "Mon, Feb 22, 1960",/boxscores/196002220MNL.html,St. Louis Hawks,113,Minneapolis Lakers,103,Box Score,,,"at Los Angeles, CA"
+"Tue, Feb 23, 1960",/boxscores/196002230BOS.html,Philadelphia Warriors,126,Boston Celtics,108,Box Score,,,"at New York, NY"
 "Tue, Feb 23, 1960",/boxscores/196002230NYK.html,Minneapolis Lakers,117,New York Knicks,112,Box Score,,,
 "Tue, Feb 23, 1960",/boxscores/196002230CIN.html,Syracuse Nationals,133,Cincinnati Royals,135,Box Score,,,
-"Tue, Feb 23, 1960",/boxscores/196002230BOS.html,Philadelphia Warriors,126,Boston Celtics,108,Box Score,,,"at New York, NY"
 "Wed, Feb 24, 1960",/boxscores/196002240BOS.html,Minneapolis Lakers,110,Boston Celtics,131,Box Score,,,"at College Park, MD"
 "Wed, Feb 24, 1960",/boxscores/196002240CIN.html,St. Louis Hawks,122,Cincinnati Royals,124,Box Score,,,"at Detroit, MI"
 "Wed, Feb 24, 1960",/boxscores/196002240DET.html,Syracuse Nationals,110,Detroit Pistons,128,Box Score,,,
-"Thu, Feb 25, 1960",/boxscores/196002250SYR.html,St. Louis Hawks,105,Syracuse Nationals,110,Box Score,,,
-"Thu, Feb 25, 1960",/boxscores/196002250PHW.html,New York Knicks,121,Philadelphia Warriors,131,Box Score,,,
-"Thu, Feb 25, 1960",/boxscores/196002250CIN.html,Minneapolis Lakers,105,Cincinnati Royals,95,Box Score,,,"at Providence, RI"
 "Thu, Feb 25, 1960",/boxscores/196002250BOS.html,Detroit Pistons,107,Boston Celtics,121,Box Score,,,"at Providence, RI"
+"Thu, Feb 25, 1960",/boxscores/196002250CIN.html,Minneapolis Lakers,105,Cincinnati Royals,95,Box Score,,,"at Providence, RI"
+"Thu, Feb 25, 1960",/boxscores/196002250PHW.html,New York Knicks,121,Philadelphia Warriors,131,Box Score,,,
+"Thu, Feb 25, 1960",/boxscores/196002250SYR.html,St. Louis Hawks,105,Syracuse Nationals,110,Box Score,,,
 "Fri, Feb 26, 1960",/boxscores/196002260BOS.html,Minneapolis Lakers,111,Boston Celtics,128,Box Score,,,
 "Sat, Feb 27, 1960",/boxscores/196002270MNL.html,Philadelphia Warriors,91,Minneapolis Lakers,109,Box Score,,,
 "Sat, Feb 27, 1960",/boxscores/196002270STL.html,Detroit Pistons,116,St. Louis Hawks,114,Box Score,,,
@@ -277,22 +277,22 @@ b'Date',b'href',b'Visitor/Neutral',b'PTS',b'Home/Neutral',b'PTS',b'\xc2\xa0',b'\
 "Sun, Feb 28, 1960",/boxscores/196002280DET.html,Philadelphia Warriors,113,Detroit Pistons,111,Box Score,,,
 "Sun, Feb 28, 1960",/boxscores/196002280NYK.html,Boston Celtics,129,New York Knicks,125,Box Score,,,
 "Sun, Feb 28, 1960",/boxscores/196002280STL.html,Cincinnati Royals,105,St. Louis Hawks,122,Box Score,,,
-"Tue, Mar 1, 1960",/boxscores/196003010CIN.html,Detroit Pistons,108,Cincinnati Royals,106,Box Score,,,"at St. Louis, MO"
 "Tue, Mar 1, 1960",/boxscores/196003010NYK.html,Syracuse Nationals,124,New York Knicks,121,Box Score,,,
+"Tue, Mar 1, 1960",/boxscores/196003010CIN.html,Detroit Pistons,108,Cincinnati Royals,106,Box Score,,,"at St. Louis, MO"
 "Tue, Mar 1, 1960",/boxscores/196003010STL.html,Minneapolis Lakers,101,St. Louis Hawks,109,Box Score,,,
-"Wed, Mar 2, 1960",/boxscores/196003020MNL.html,New York Knicks,113,Minneapolis Lakers,123,Box Score,,,"at Boston, MA"
-"Wed, Mar 2, 1960",/boxscores/196003020DET.html,St. Louis Hawks,100,Detroit Pistons,116,Box Score,,,"at Detroit, MI (University of Detroit Fieldhouse)"
 "Wed, Mar 2, 1960",/boxscores/196003020BOS.html,Philadelphia Warriors,119,Boston Celtics,133,Box Score,,,
+"Wed, Mar 2, 1960",/boxscores/196003020DET.html,St. Louis Hawks,100,Detroit Pistons,116,Box Score,,,"at Detroit, MI (University of Detroit Fieldhouse)"
+"Wed, Mar 2, 1960",/boxscores/196003020MNL.html,New York Knicks,113,Minneapolis Lakers,123,Box Score,,,"at Boston, MA"
 "Thu, Mar 3, 1960",/boxscores/196003030CIN.html,Minneapolis Lakers,117,Cincinnati Royals,114,Box Score,,,"at Philadelphia, PA"
 "Thu, Mar 3, 1960",/boxscores/196003030PHW.html,Detroit Pistons,101,Philadelphia Warriors,110,Box Score,,,
 "Thu, Mar 3, 1960",/boxscores/196003030SYR.html,Boston Celtics,108,Syracuse Nationals,149,Box Score,,,
 "Fri, Mar 4, 1960",/boxscores/196003040NYK.html,Philadelphia Warriors,136,New York Knicks,134,Box Score,OT,,"at Hershey, PA"
-"Sat, Mar 5, 1960",/boxscores/196003050SYR.html,New York Knicks,115,Syracuse Nationals,132,Box Score,,,
 "Sat, Mar 5, 1960",/boxscores/196003050MNL.html,St. Louis Hawks,107,Minneapolis Lakers,106,Box Score,OT,,
+"Sat, Mar 5, 1960",/boxscores/196003050SYR.html,New York Knicks,115,Syracuse Nationals,132,Box Score,,,
 "Sun, Mar 6, 1960",/boxscores/196003060BOS.html,Syracuse Nationals,117,Boston Celtics,126,Box Score,,,
-"Sun, Mar 6, 1960",/boxscores/196003060MNL.html,Cincinnati Royals,105,Minneapolis Lakers,114,Box Score,,,
-"Sun, Mar 6, 1960",/boxscores/196003060NYK.html,Detroit Pistons,112,New York Knicks,120,Box Score,,,
 "Sun, Mar 6, 1960",/boxscores/196003060STL.html,Philadelphia Warriors,109,St. Louis Hawks,128,Box Score,,,
+"Sun, Mar 6, 1960",/boxscores/196003060NYK.html,Detroit Pistons,112,New York Knicks,120,Box Score,,,
+"Sun, Mar 6, 1960",/boxscores/196003060MNL.html,Cincinnati Royals,105,Minneapolis Lakers,114,Box Score,,,
 "Tue, Mar 8, 1960",/boxscores/196003080STL.html,Detroit Pistons,101,St. Louis Hawks,122,Box Score,,,
 "Wed, Mar 9, 1960",/boxscores/196003090BOS.html,New York Knicks,128,Boston Celtics,148,Box Score,,,
 "Wed, Mar 9, 1960",/boxscores/196003090CIN.html,St. Louis Hawks,123,Cincinnati Royals,116,Box Score,,,
@@ -305,8 +305,8 @@ Playoffs,
 "Sun, Mar 13, 1960",/boxscores/196003130MNL.html,Detroit Pistons,99,Minneapolis Lakers,114,Box Score,,,
 "Sun, Mar 13, 1960",/boxscores/196003130SYR.html,Philadelphia Warriors,119,Syracuse Nationals,125,Box Score,,,
 "Mon, Mar 14, 1960",/boxscores/196003140PHW.html,Syracuse Nationals,112,Philadelphia Warriors,132,Box Score,,,
-"Wed, Mar 16, 1960",/boxscores/196003160STL.html,Minneapolis Lakers,99,St. Louis Hawks,112,Box Score,,,
 "Wed, Mar 16, 1960",/boxscores/196003160BOS.html,Philadelphia Warriors,105,Boston Celtics,111,Box Score,,,
+"Wed, Mar 16, 1960",/boxscores/196003160STL.html,Minneapolis Lakers,99,St. Louis Hawks,112,Box Score,,,
 "Thu, Mar 17, 1960",/boxscores/196003170STL.html,Minneapolis Lakers,120,St. Louis Hawks,113,Box Score,,,
 "Fri, Mar 18, 1960",/boxscores/196003180PHW.html,Boston Celtics,110,Philadelphia Warriors,115,Box Score,,,
 "Sat, Mar 19, 1960",/boxscores/196003190MNL.html,St. Louis Hawks,93,Minneapolis Lakers,89,Box Score,,,
@@ -315,8 +315,8 @@ Playoffs,
 "Sun, Mar 20, 1960",/boxscores/196003200PHW.html,Boston Celtics,112,Philadelphia Warriors,104,Box Score,,,
 "Tue, Mar 22, 1960",/boxscores/196003220BOS.html,Philadelphia Warriors,128,Boston Celtics,107,Box Score,,,
 "Tue, Mar 22, 1960",/boxscores/196003220STL.html,Minneapolis Lakers,117,St. Louis Hawks,110,Box Score,OT,,
-"Thu, Mar 24, 1960",/boxscores/196003240PHW.html,Boston Celtics,119,Philadelphia Warriors,117,Box Score,,,
 "Thu, Mar 24, 1960",/boxscores/196003240MNL.html,St. Louis Hawks,117,Minneapolis Lakers,96,Box Score,,,
+"Thu, Mar 24, 1960",/boxscores/196003240PHW.html,Boston Celtics,119,Philadelphia Warriors,117,Box Score,,,
 "Sat, Mar 26, 1960",/boxscores/196003260STL.html,Minneapolis Lakers,86,St. Louis Hawks,97,Box Score,,,
 "Sun, Mar 27, 1960",/boxscores/196003270BOS.html,St. Louis Hawks,122,Boston Celtics,140,Box Score,,"10,002",
 "Tue, Mar 29, 1960",/boxscores/196003290BOS.html,St. Louis Hawks,113,Boston Celtics,103,Box Score,,"13,909",
