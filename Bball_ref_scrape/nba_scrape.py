@@ -185,7 +185,7 @@ def scrape_results1(url, y):
     table=soup.find('table',{'id':'schedule'})
     headers=[c.text.encode('utf-8').strip() for c in table.find('thead').findAll('th')]
     headers.insert(1, "href".encode('utf-8').strip())
-    writer = csv.writer(open(f'games{y}.csv', 'w'))
+    writer = csv.writer(open(f'{target_directory}games{y}.csv', 'w'))
     writer.writerow(headers)
     games=[]
     for c in table.find('tbody').findAll('tr'):
@@ -203,7 +203,7 @@ def scrape_results2(url, y):
     try:
         soup=BeautifulSoup(html)
         table=soup.find('table',{'id':'schedule'})
-        writer = csv.writer(open(f'games{y}.csv', 'a'))
+        writer = csv.writer(open(f'{target_directory}games{y}.csv', 'a'))
         games=[]
         for c in table.find('tbody').findAll('tr'):
             game=[d.text for d in c.findAll('td')]
@@ -305,15 +305,15 @@ for year in years:
         scrape_results1(f"https://www.basketball-reference.com/leagues/NBA_{year}_games.html", year)
         for month in ["-november", "-december", "-january", "-february", "-march", "-april", "-may", "-june"]:
             scrape_results2(f"https://www.basketball-reference.com/leagues/NBA_{year}_games{month}.html", year)
-        game_results[year]=pd.read_csv(f'games{year}.csv')
+        game_results[year]=pd.read_csv(f'{target_directory}games{year}.csv')
         continue
     try:
-        game_results[year]=pd.read_csv(f'games{year}.csv')
+        game_results[year]=pd.read_csv(f'{target_directory}games{year}.csv')
     except Exception as e:
         scrape_results1(f"https://www.basketball-reference.com/leagues/NBA_{year}_games.html", year)
         for month in ["-november", "-december", "-january", "-february", "-march", "-april", "-may", "-june"]:
             scrape_results2(f"https://www.basketball-reference.com/leagues/NBA_{year}_games{month}.html", year)
-        game_results[year]=pd.read_csv(f'games{year}.csv')
+        game_results[year]=pd.read_csv(f'{target_directory}games{year}.csv')
 print("Game Results Loaded")
 
 #Get full standings for every season
