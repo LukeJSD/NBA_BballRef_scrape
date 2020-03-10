@@ -48,12 +48,11 @@ def scrape_players_stats(year, category):
         print(e)
         print(year, category)
         return None
-    soup=BeautifulSoup(html)
+    soup=BeautifulSoup(html, features="lxml")
     soup.findAll('tr', limit=2)
     headers = [th.getText() for th in soup.findAll('tr', limit=2)[0].findAll('th')]
     headers = headers[1:]
     rows = soup.findAll('tr')[1:]
-    player_stats=[]
     player_stats = [[td.getText() for td in rows[i].findAll('td')]
                 for i in range(len(rows))]
     normalize_names(headers, player_stats)
@@ -122,7 +121,7 @@ def scrape_standings(year):
     except Exception as e:
         print(year, e)
         return None
-    soup=BeautifulSoup(html)
+    soup=BeautifulSoup(html, features="lxml")
     soup.findAll('tr')
     headers = [th.getText() for th in soup.findAll('tr', limit=2)[1].findAll('th')]
     headers = headers[:]
@@ -181,7 +180,7 @@ def scrape_standings(year):
 
 def scrape_results1(url, y):
     html=urlopen(url)
-    soup=BeautifulSoup(html)
+    soup=BeautifulSoup(html, features="lxml")
     table=soup.find('table',{'id':'schedule'})
     headers=[c.text.encode('utf-8').strip() for c in table.find('thead').findAll('th')]
     headers.insert(1, "href".encode('utf-8').strip())
@@ -201,7 +200,7 @@ def scrape_results2(url, y):
     except Exception as e:
         return
     try:
-        soup=BeautifulSoup(html)
+        soup=BeautifulSoup(html, features="lxml")
         table=soup.find('table',{'id':'schedule'})
         writer = csv.writer(open(f'{target_directory}games{y}.csv', 'a'))
         games=[]
@@ -329,7 +328,7 @@ for year in years:
         standings[year]=scrape_standings(year)
 print("Standings Loaded")
         
-abrev=pd.read_csv("abreviations.csv")
+abrev=pd.read_csv("C:/Users/luke/Git Projects/Bball_ref_scrape/abreviations.csv")
         
 try:
     gen_history=pd.read_csv("gen_hist.csv")
@@ -338,7 +337,7 @@ except FileNotFoundError:
         html=urlopen(f"https://www.basketball-reference.com/leagues/")
     except Exception as e:
         print(e)
-    soup=BeautifulSoup(html)
+    soup=BeautifulSoup(html, features="lxml")
     soup.findAll('tr', limit=2)
     headers = [th.getText() for th in soup.findAll('tr', limit=2)[1].findAll('th')]
     headers = headers[1:]
