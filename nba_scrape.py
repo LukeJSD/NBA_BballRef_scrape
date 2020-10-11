@@ -10,8 +10,8 @@ import csv
 target_directory = '/'.join(os.path.abspath('nba_scrape.py').split('\\')[:-1]) + '/'
 categories = ['totals', 'advanced']     # ["per_game", "totals", "per_poss", "advanced", "per_minute"]
 not_avg = ["advanced"]
-years = [y for y in range(1956, 2021)]
 current_year = 2020
+years = [y for y in range(1956, current_year+1)]
 
 if not os.path.exists(target_directory+'/PlayerStats'):
     os.mkdir(target_directory+'/PlayerStats')
