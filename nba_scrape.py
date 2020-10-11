@@ -230,7 +230,7 @@ def scrape_results2(url, y):
         return None
 
 
-def main_func():
+def main():
     #scrape individual stats from every year in each category
     year_stats={}
     for year in years:
@@ -314,7 +314,8 @@ def main_func():
     print("Done")
 
 
-try:
-    main_func()
-except:
-    main_func()
+if __name__ == '__main__':
+    try:
+        main()
+    except:
+        main()
