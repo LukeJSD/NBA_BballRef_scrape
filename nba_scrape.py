@@ -199,11 +199,22 @@ def scrape_results1(url, y):
     writer = csv.writer(open(f'{target_directory}Games/games{y}.csv', 'w', newline=''))
     writer.writerow(headers)
     games=[]
+    covid = False
     for c in table.find('tbody').findAll('tr'):
         game=[d.text for d in c.findAll('td')]
         game.insert(0, c.find('th').text)
-        game.insert(1, c.find('td',{"data-stat": "box_score_text"}).find("a").get("href"))
+        try:
+            game.insert(1, c.find('td',{"data-stat": "box_score_text"}).find("a").get("href"))
+        except Exception as e:
+            if y == 2020:   # Damn covid.
+                covid = True
+                game.insert(1, None)
+            else:
+                print(e)
+                exit(1)
         games.append(game)
+    if covid:
+        games.append(['End-Playoffs', None])
     writer.writerows(games)
 
 
@@ -230,7 +241,7 @@ def scrape_results2(url, y):
         return None
 
 
-def main():
+def yearStats():
     #scrape individual stats from every year in each category
     year_stats={}
     for year in years:
@@ -248,6 +259,8 @@ def main():
                 #year_stats[year][cat]=pd.read_csv(target_directory+file)"""
     print("Individual Stats Loaded")
 
+
+def leagueAvg():
     #scrape for league wide averages
     league_avgs={}
     for cat in categories:
@@ -258,6 +271,8 @@ def main():
             scrape_league_averages(cat)
     print("League Averages Loaded")
 
+
+def drafts():
     #scrape drafts
     drafts={}
     for year in years:
@@ -268,6 +283,8 @@ def main():
             scrape_draft(year)
     print("Drafts Loaded")
 
+
+def gameResults():
     #Get full game results for every season
     game_results={}
     for year in years:
@@ -279,6 +296,8 @@ def main():
             scrape_results2(f"https://www.basketball-reference.com/leagues/NBA_{year}_games{month}.html", year)
     print("Game Results Loaded")
 
+
+def standing():
     #Get full standings for every season
     standings={}
     for year in years:
@@ -287,6 +306,8 @@ def main():
             standings[year]=scrape_standings(year)
     print("Standings Loaded")
 
+
+def genHist():
     try:
         html=urlopen(f"https://www.basketball-reference.com/leagues/")
     except Exception as e:
@@ -311,6 +332,14 @@ def main():
     make_csv(stats, "Standings/gen_hist")
     print("General History Loaded")
 
+
+def main():
+    yearStats()
+    leagueAvg()
+    drafts()
+    gameResults()
+    standing()
+    genHist()
     print("Done")
 
 
@@ -318,4 +347,5 @@ if __name__ == '__main__':
     try:
         main()
     except:
+        print('Oops.')
         main()
