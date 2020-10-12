@@ -8,8 +8,16 @@ from bs4 import BeautifulSoup
 import csv
 
 target_directory = '/'.join(os.path.abspath('nba_scrape.py').split('\\')[:-1]) + '/'
-categories = ['totals', 'advanced']     # ["per_game", "totals", "per_poss", "advanced", "per_minute"]
-not_avg = ["advanced"]
+categories = ['totals',
+              'advanced',
+              "per_game",
+              "totals",
+              "per_poss",
+              "advanced",
+              "per_minute",
+              'adj_shooting',
+              'play-by-play',
+              'shooting']
 current_year = 2020
 years = [y for y in range(1956, current_year+1)]
 
@@ -41,6 +49,36 @@ def normalize_names(headers, stats):
             e[names]=unidecode.unidecode(e[names])
 
 
+def handle_subheaders(h, cat):
+    drawn = False
+    heaves = False
+    out = []
+    for c in h:
+        if cat=='play-by-play':
+            if c in ['BadPass', 'LostBall']:
+                c += 'TOV'
+            elif c in ['Shoot', 'Off.']:
+                if drawn:
+                    c += 'FoulsCommitted'
+                    if c == 'Off.FoulsCommitted':
+                        drawn = True
+                else:
+                    c += 'FoulsDrawn'
+        elif cat=='shooting':
+            if c=='%FGA':
+                c = 'Dunk' + c
+            if c=='#':
+                if heaves:
+                    c = 'Heaves'
+                else:
+                    c = 'Dunks'
+                    heaves = True
+            if c=='Att.':
+                c = 'Heave' + c
+        out.append(c)
+    return out
+
+
 def scrape_players_stats(year, category):
     try:
         html=urlopen(f"https://www.basketball-reference.com/leagues/NBA_{year}_{category}.html")
@@ -50,7 +88,11 @@ def scrape_players_stats(year, category):
         return None
     soup=BeautifulSoup(html, features="lxml")
     soup.findAll('tr', limit=2)
-    headers = [th.getText() for th in soup.findAll('tr', limit=2)[0].findAll('th')]
+    if category=='play-by-play' or category=='shooting':
+        headers = [th.getText() for th in soup.findAll('tr', limit=2)[1].findAll('th')]
+        headers = handle_subheaders(headers, category)
+    else:
+        headers = [th.getText() for th in soup.findAll('tr', limit=2)[0].findAll('th')]
     headers = headers[1:]
     rows = soup.findAll('tr')[1:]
     player_stats = [[td.getText() for td in rows[i].findAll('td')]
@@ -261,7 +303,7 @@ def yearStats():
     #scrape individual stats from every year in each category
     for year in years:
         for cat in categories:
-            if year<1974 and cat=="per_poss":
+            if (year<1974 and cat=="per_poss") or (year<1997 and (cat=="play-by-play" or cat=="shooting")) or (cat=='adj_shooting'):
                 continue
             file='PlayerStats/'+str(year)+"_"+cat+".csv"
             if not os.path.exists(file) or year == current_year:
@@ -274,7 +316,7 @@ def yearStats():
 def leagueAvg():
     #scrape for league wide averages
     for cat in categories:
-        if cat in not_avg:
+        if cat not in ['per_game', 'totals', 'per_poss']:
             continue
         file='Averages/'+cat+"_average"+".csv"
         if not os.path.exists(file):
@@ -351,6 +393,8 @@ def main():
 
 
 if __name__ == '__main__':
+    main()
+
     try:
         main()
     except Exception as e:
