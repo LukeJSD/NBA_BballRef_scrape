@@ -11,7 +11,7 @@ Drafts<br>
 Games<br>
     |__ Basic game information for every NBA game<br>
 PlayerStats<br>
-    |__ Individual totals, per game, and advanced statistics (one file for each) for each season<br>
+    |__ Individual statistics (one file for each category) for each season<br>
 Standings<br>
     |__ Standings for each season and general history of the league<br><br>
     
