@@ -18,5 +18,5 @@ Standings<br>
 It will take a considerable amount of time to run the first time.  Once the files are loaded, 
 running the program will only update the files dependent on the current season.
 
-<br> For details on statistical categories, see the 
+<br> For details on statistical definitions, see the 
 [Basketball-Reference Glossary](https://www.basketball-reference.com/about/glossary.html)
