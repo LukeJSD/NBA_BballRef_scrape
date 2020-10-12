@@ -25,9 +25,9 @@ if not os.path.exists(target_directory+'/Averages'):
     os.mkdir(target_directory+'/Averages')
 
 
-def make_csv(df, string):
+def make_csv(df, string, index=False):
     outname = string+'.csv'
-    df.to_csv(target_directory+outname, index=False)
+    df.to_csv(target_directory+outname, index=index)
 
 
 def normalize_names(headers, stats):
@@ -75,6 +75,21 @@ def scrape_players_stats(year, category):
             continue
     make_csv(stats, 'PlayerStats/'+str(year)+"_"+category)
     return stats
+
+
+def career_tot():
+    totals = pd.DataFrame()
+    for year in years:
+        df = pd.read_csv(target_directory+f'/PlayerStats/{year}_totals.csv')
+        totals = pd.concat([totals, df[df['Tm']!='TOT']])
+    ct = totals.groupby('Player').sum()
+    ff = totals.groupby(['Player', 'Year']).count().groupby('Player').count()
+    ct['Seasons'] = ff.Tm
+    for shot in ['FG', '3P', 'FT']:
+        ct[f'{shot}%'] = ct[shot]/ct[f'{shot}A']
+    ct['eFG%'] = (ct['FG']+0.5*ct['3P'])/ct['FGA']
+    ct['TS%'] = (ct['PTS']/(2*(ct['FGA']+0.44*ct['FTA'])))
+    make_csv(ct, 'PlayerStats/Career_totals', index=True)
 
 
 def scrape_league_averages(category):
@@ -244,26 +259,20 @@ def scrape_results2(url, y):
 
 def yearStats():
     #scrape individual stats from every year in each category
-    year_stats={}
     for year in years:
-        year_stats[year]={}
         for cat in categories:
             if year<1974 and cat=="per_poss":
                 continue
             file='PlayerStats/'+str(year)+"_"+cat+".csv"
             if not os.path.exists(file) or year == current_year:
                 scrape_players_stats(year, cat)
-            """
-                cols=df.columns
-                df=df.assign(Yr=year)
-                year_stats[year][cat]=df
-                #year_stats[year][cat]=pd.read_csv(target_directory+file)"""
     print("Individual Stats Loaded")
+    career_tot()
+    print('Career Totals Loaded')
 
 
 def leagueAvg():
     #scrape for league wide averages
-    league_avgs={}
     for cat in categories:
         if cat in not_avg:
             continue
@@ -275,7 +284,6 @@ def leagueAvg():
 
 def drafts():
     #scrape drafts
-    drafts={}
     for year in years:
         if year==current_year:
             continue
@@ -287,7 +295,6 @@ def drafts():
 
 def gameResults():
     #Get full game results for every season
-    game_results={}
     for year in years:
         file = f'{target_directory}Games/games{year}.csv'
         if os.path.exists(file) and not year == current_year:
@@ -300,11 +307,10 @@ def gameResults():
 
 def standing():
     #Get full standings for every season
-    standings={}
     for year in years:
         file = 'Standings/'+"standings_"+str(year)+'.csv'
         if not os.path.exists(file) or year == current_year:
-            standings[year]=scrape_standings(year)
+            scrape_standings(year)
     print("Standings Loaded")
 
 
@@ -347,6 +353,8 @@ def main():
 if __name__ == '__main__':
     try:
         main()
-    except:
-        print('Oops.')
-        main()
+    except Exception as e:
+        print('Oops.\n')
+        print(e)
+        # main()
+        exit(1)
