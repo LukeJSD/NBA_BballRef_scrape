@@ -27,7 +27,7 @@ if not os.path.exists(target_directory+'/Averages'):
 
 def make_csv(df, string):
     outname = string+'.csv'
-    df.to_csv(target_directory+outname)
+    df.to_csv(target_directory+outname, index=False)
 
 
 def normalize_names(headers, stats):
@@ -67,6 +67,7 @@ def scrape_players_stats(year, category):
     stats = pd.DataFrame(player_stats, columns=headers)
     stats = stats.loc[:,~stats.columns.duplicated()]
     stats=stats.dropna()
+    stats['Year'] = [year] * len(stats)
     for col in stats.columns:
         try:
             stats[col]=stats[col].replace("","0.0").astype(float)
