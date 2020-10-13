@@ -20,6 +20,7 @@ categories = ['totals',
               'shooting']
 current_year = 2020
 years = [y for y in range(1956, current_year+1)]
+teams = pd.read_csv('abreviations.csv')
 
 if not os.path.exists(target_directory+'/PlayerStats'):
     os.mkdir(target_directory+'/PlayerStats')
@@ -115,6 +116,7 @@ def scrape_players_stats(year, category):
             stats[col]=stats[col].replace("","0.0").astype(float)
         except Exception as e:
             continue
+    stats = stats.join(teams.set_index('Abr'), on='Tm')
     make_csv(stats, 'PlayerStats/'+str(year)+"_"+category)
     return stats
 
